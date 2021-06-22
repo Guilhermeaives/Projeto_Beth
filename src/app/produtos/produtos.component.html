@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<div class="container" style="margin-top: 20 px;">
+    <h2>{{titlePage}}</h2>
+    <hr>
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let produto of produtosArray">
+            <div class="card" style="width: 18rem; margin-top: 20px;">
+                <img  [src]="produto.endereco" class="card-img-top" alt="imagem " width="286" height="180">
+                <div class="card-body">
+                    
+                    <h5 class="card-title"><strong>Titulo: </strong>{{produto.titulo}}</h5>
+                    <h5 class="card-title"><strong>Sabor: </strong>{{produto.sabor}}</h5>
+                    <p class="card-text" style="text-align: justify;"><strong>Decrição: </strong>{{produto.descricao}}</p>
+                    <a [href]="produto.endereco" class="btn btn-outline-primary btn-block">Visitar</a>
+                    
+                </div>
+            </div>
+        </div>

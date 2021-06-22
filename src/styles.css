@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.subtitulo{
+    background-color: #34ace0;
+    width: 100%;
+    color: #40407a;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 20px;
+
+}
