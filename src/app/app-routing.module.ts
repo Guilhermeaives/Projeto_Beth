@@ -21,7 +21,7 @@ const routes: Routes = [
  },
 
  {
-  path: 'contato', component:ContatosComponent
+  path: 'contatos', component:ContatosComponent
 },
 {
   path: 'admin', loadChildren: () => import('./admin/admin.module').then( m => m.AdminModule)
