@@ -10,7 +10,7 @@ import { ProdutosdbService } from '../services/produtosdb.service';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-  titlePage = "Formulário de Cadastro";
+  titlePage = "Solicite seu Orçamento:";
 
   form:FormGroup;
   produtos = [];

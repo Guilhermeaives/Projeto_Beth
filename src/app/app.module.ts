@@ -18,6 +18,7 @@ import { ContatosComponent } from './contatos/contatos.component';
 import { FotosComponent } from './fotos/fotos.component';
 import { environment } from 'src/environments/environment';
 import { AdminModule } from './admin/admin.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -30,6 +31,7 @@ import { AdminModule } from './admin/admin.module';
     ProdutosComponent,
     ContatosComponent,
     FotosComponent,
+    FooterComponent,
    
    
 

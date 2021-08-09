@@ -1,0 +1,30 @@
+a {
+    background: #a29bfe ;
+    color: white;
+}
+
+.active{
+    background-color: #00cec9;   
+    border-radius: 20px;
+    color: white;
+}
+
+
+.subtitulo{
+    /*background-color: #34ace0;*/
+    place-items: center;
+    background-color: #00cec9;
+    width: 100%;
+    height: auto;    
+    color: #6c5ce7;   
+    box-shadow:  0 0 1em; 
+   
+    text-align: center; 
+    /*font-size: clamp(1em, 1em + 1vw, 1.5em);*/
+  
+}
+
+.subtitulo p {   
+    margin-top: 70px;
+    font-size: calc(0.5em + 0.5vw);
+}
