@@ -19,6 +19,7 @@ import { FotosComponent } from './fotos/fotos.component';
 import { environment } from 'src/environments/environment';
 import { AdminModule } from './admin/admin.module';
 import { FooterComponent } from './footer/footer.component';
+import { NgxImageZoomModule } from 'ngx-image-zoom';
 
 
 
@@ -42,7 +43,8 @@ import { FooterComponent } from './footer/footer.component';
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AdminModule
+    AdminModule,
+    NgxImageZoomModule
 
   ],
   providers: [],

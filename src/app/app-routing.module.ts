@@ -11,28 +11,28 @@ import { ProdutosComponent } from './produtos/produtos.component';
 
 const routes: Routes = [
   {
-    path: '', component:HomeComponent
+    path: '', component: HomeComponent
   },
   {
-    path: 'home', component:HomeComponent
+    path: 'home', component: HomeComponent
   },
   {
-    path: 'formulario', component:FormComponent
+    path: 'formulario', component: FormComponent
   },
- 
- {
-   path: 'produtos', component:ProdutosComponent
- },
- {
-   path: 'fotos', component:FotosComponent
- },
 
- {
-  path: 'contatos', component:ContatosComponent
-},
-{
-  path: 'admin', loadChildren: () => import('./admin/admin.module').then( m => m.AdminModule)
-}
+  {
+    path: 'produtos', component: ProdutosComponent
+  },
+  {
+    path: 'fotos', component: FotosComponent
+  },
+
+  {
+    path: 'contatos', component: ContatosComponent
+  },
+  {
+    path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)
+  }
 ];
 
 

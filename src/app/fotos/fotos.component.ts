@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ProdutosdbService } from '../services/produtosdb.service';
 
 @Component({
   selector: 'app-fotos',
@@ -7,15 +6,11 @@ import { ProdutosdbService } from '../services/produtosdb.service';
   styleUrls: ['./fotos.component.css']
 })
 export class FotosComponent implements OnInit {
-  titlePage = "Nossas Fotos";
-  fotosArray = [];
 
-  constructor(
-    private produtosDb: ProdutosdbService
-  ) { }
+  constructor() { }
 
+    imagem = ".\assets\imagem\IMG_20201205_123246_635.jpg"
   ngOnInit(): void {
-    this.produtosDb.getAllProduto().subscribe(carrinho =>{this.fotosArray = carrinho})
   }
 
 }
